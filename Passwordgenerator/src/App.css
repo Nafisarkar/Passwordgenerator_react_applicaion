@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+
+
+.App {
+    font-family: 'Poppins', sans-serif;
+  min-height: 100vh;
+  background-color: #232332;
+}
+
+.container {
+  width: 350px;
+  margin: 0 auto;
+  padding-top: 200px;
+}
+
+.generator {
+  background: #262635;
+  border-radius: 3px;
+  box-shadow: 0px 10px 16px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+
+.generator_header {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.generator_password {
+  position: relative;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 13px 10px;
+  color: white;
+  height: 46px;
+  margin-bottom: 15px;
+  box-shadow: 0px 10px 16px rgba(0, 0, 0, 0.2);
+}
+
+.copy_btn {
+  position: absolute;
+  background: #5c5cd4;
+  color: white;
+  border: none;
+  height: 40px;
+  padding: 10px;
+  cursor: pointer;
+  top: 3px;
+  right: 3px;
+  box-shadow: 0px 10px 16px rgba(0, 0, 0, 0.2);
+}
+
+.generate_btn {
+  background: #5c5cd4;
+  border: none;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  color: white;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.form-group {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  margin-bottom: 15px;
+}
